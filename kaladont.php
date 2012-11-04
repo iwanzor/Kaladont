@@ -14,6 +14,13 @@ die();
 }
 $input=$input1;
 $rec = substr("$input", -2);
+if ($rec=="ka"){
+	echo "KALADONT!";
+	die();
+	
+	}
+
+
 $file = 'listareci.txt';
 
 $searchfor = $rec;
